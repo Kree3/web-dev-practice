@@ -57,6 +57,22 @@ aside {
   list-style: none;
 }
 
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: red;
+}
+
 /* footer p {
   font-size: 16px;
 } */
@@ -72,4 +88,21 @@ aside {
 .related-author {
   font-size: 18px;
   font-weight: bold;
+}
+
+/* Styling Links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
 }
