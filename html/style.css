@@ -106,3 +106,8 @@ a:hover {
   font-weight: bold;
   text-decoration: underline dotted orangered;
 }
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
