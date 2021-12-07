@@ -60,6 +60,10 @@ li:last-child {
   margin-bottom: 0;
 }
 
+nav {
+  font-family: sans-serif;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -71,6 +75,8 @@ aside {
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
+  height: 80px;
+  border-top: 5px solid #1098ad;
 }
 
 .post-header {
@@ -79,6 +85,11 @@ aside {
 
 .related-list {
   list-style: none;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 /* .first-li {
