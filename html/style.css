@@ -19,8 +19,18 @@ h3 {
   color: #1098ad;
 }
 
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
 article {
   margin-bottom: 60px;
+}
+
+body {
+  position: relative;
 }
 
 h1 {
@@ -35,12 +45,6 @@ h2 {
   margin-bottom: 30px;
 }
 
-p {
-  font-size: 22px;
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
 h3 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -52,12 +56,30 @@ h4 {
   text-align: center;
 }
 
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
 li {
   font-size: 20px;
   margin-bottom: 10px;
 }
 li:last-child {
   margin-bottom: 0;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: red;
 }
 
 nav {
@@ -94,27 +116,19 @@ aside {
 
 .container {
   width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* .first-li {
+.related-author {
+  font-size: 18px;
   font-weight: bold;
-} */
-
-li:first-child {
-  font-weight: bold;
 }
 
-li:last-child {
-  font-style: italic;
+#header-div {
+  position: relative;
 }
 
-li:nth-child(2) {
-  color: red;
-}
-
-/* footer p {
-  font-size: 16px;
-} */
 #copyright {
   font-size: 16px;
 }
@@ -124,15 +138,14 @@ li:nth-child(2) {
   font-size: 18px;
 }
 
-.related-author {
-  font-size: 18px;
+#top {
+  position: absolute;
+  right: 180px;
+  top: -20px;
+  font-family: sans-serif;
+  background-color: yellow;
+  padding: 5px 10px;
   font-weight: bold;
-}
-
-ul,
-ol {
-  margin-left: 50px;
-  margin-bottom: 20px;
 }
 
 /* Styling Links */
