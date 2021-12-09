@@ -27,6 +27,7 @@ ol {
 
 article {
   margin-bottom: 60px;
+  float: left;
 }
 
 body {
@@ -98,6 +99,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  float: right;
 }
 
 .main-header {
@@ -105,6 +107,7 @@ aside {
   padding: 20px;
   margin-bottom: 60px;
   border-top: 5px solid #1098ad;
+  height: 40px;
 }
 
 .post-header {
